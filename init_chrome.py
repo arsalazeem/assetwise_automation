@@ -13,4 +13,5 @@ def start_minize():
     return driver
 
 
-start()
+if __name__ == '__main__':
+    start()
