@@ -1,5 +1,5 @@
 from selenium import webdriver
-import time
+
 
 
 def start():
