@@ -7,7 +7,6 @@ driver.get("https://nesma.ondemandstartup.com/auth/signin")
 driver.implicitly_wait(40)
 driver.find_element(By.XPATH,'//*[@id="root"]/form/div/div/div/div[1]/div[1]/input').send_keys("asifsaeed@yopmail.com")
 driver.find_element(By.XPATH,'//*[@id="root"]/form/div/div/div/div[1]/div[2]/input').send_keys("12345678")
-time.sleep(5)
 driver.find_element(By.XPATH,'//*[@id="root"]/form/div/div/div/button').click()
 
 
